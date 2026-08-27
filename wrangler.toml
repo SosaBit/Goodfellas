@@ -1,0 +1,8 @@
+name = "goodfellas"
+compatibility_date = "2026-08-27"
+main = "src/worker.js"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
