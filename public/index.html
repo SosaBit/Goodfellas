@@ -1,118 +1,66 @@
 <!doctype html>
 <html lang="it">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#090909">
-  <meta name="description" content="Goodfellas Streetwear — anime-inspired streetwear.">
-  <title>Goodfellas Streetwear</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090909">
+<meta name="description" content="Goodfellas Streetwear — anime culture meets street attitude.">
+<title>Goodfellas Streetwear — New Drop</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-  <div class="announcement">FREE SHIPPING ON ORDERS OVER €80 <span>•</span> GOODFELLAS STREETWEAR</div>
+<div class="announcement"><span>DROP 001 IS LIVE</span><span>FREE SHIPPING OVER €80</span><span>GOODFELLAS STREETWEAR</span></div>
+<header class="site-header">
+<a class="brand" href="#top">GOODFELLAS<span>®</span></a>
+<nav class="desktop-nav"><a href="#shop">Shop</a><a href="#newdrop">New Drop</a><a href="#story">Story</a><a href="#faq">FAQ</a></nav>
+<div class="header-actions"><button class="icon-btn" id="searchToggle" aria-label="Cerca">⌕</button><button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡<b id="wishCount">0</b></button><button class="cart-btn" id="cartBtn">Bag <b id="cartCount">0</b></button></div>
+</header>
+<div class="searchbar" id="searchbar"><input id="searchInput" type="search" placeholder="Cerca nel catalogo..." autocomplete="off"></div>
 
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Goodfellas Streetwear home">GOODFELLAS<span>®</span></a>
-    <nav class="desktop-nav" aria-label="Navigazione principale">
-      <a href="#shop">Shop</a>
-      <a href="#drops">New Drop</a>
-      <a href="#about">About</a>
-    </nav>
-    <div class="header-actions">
-      <button class="icon-btn" id="searchToggle" aria-label="Cerca">⌕</button>
-      <button class="icon-btn" id="wishlistBtn" aria-label="Wishlist">♡<b id="wishCount">0</b></button>
-      <button class="cart-btn" id="cartBtn">Bag <b id="cartCount">0</b></button>
-    </div>
-  </header>
+<main id="top">
+<section class="hero">
+<div class="hero-copy"><p class="eyebrow">GF / DROP 001 / 2026</p><h1>BUILT<br>FOR THE<br><i>OUTCASTS.</i></h1>
+<p class="hero-text">Anime culture. Street attitude. Una nuova uniforme per chi non vuole confondersi.</p>
+<div class="hero-actions"><a class="primary-btn" href="#shop">SHOP THE DROP <span>↗</span></a><a class="ghost-btn" href="#story">OUR STORY</a></div></div>
+<div class="hero-art"><div class="gridlines"></div><div class="sun"></div><div class="kanji">夜</div><div class="vertical">GOODFELLAS / STREET DIVISION</div><div class="hero-stamp">001<br><small>LIMITED<br>DROP</small></div></div>
+</section>
 
-  <div class="searchbar" id="searchbar">
-    <input id="searchInput" type="search" placeholder="Cerca hoodie, tee, anime..." autocomplete="off">
-  </div>
+<section class="ticker"><span>ANIME CULTURE</span><span>STREET ATTITUDE</span><span>LIMITED DROPS</span><span>NO ORDINARY UNIFORM</span></section>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">GOODFELLAS STREETWEAR / 001</p>
-        <h1>WEAR<br><em>YOUR</em><br>WORLD.</h1>
-        <p class="hero-text">Streetwear ispirato all'estetica anime, pensato per chi vuole distinguersi.</p>
-        <a class="primary-btn" href="#shop">SHOP THE DROP <span>↗</span></a>
-      </div>
-      <div class="hero-art" aria-label="Illustrazione astratta anime">
-        <div class="sun"></div><div class="ring ring-a"></div><div class="ring ring-b"></div>
-        <div class="kanji">夜</div>
-        <div class="hero-card">GF<br><small>STREET DIVISION</small></div>
-      </div>
-    </section>
+<section class="section" id="newdrop">
+<div class="section-head"><div><p class="eyebrow">01 / THE DROP</p><h2>NEW SEASON<br><i>001.</i></h2></div><p class="section-note">Designed in the shadows.<br>Built for the streets.</p></div>
+<div class="editorial-grid">
+<article class="editorial e-dark"><div class="editorial-top"><span>GF-001</span><span>01 / 02</span></div><div class="editorial-mark">影</div><div><h3>SHADOW<br>DIVISION</h3><button data-filter="Hoodies">SHOP HOODIES ↗</button></div></article>
+<article class="editorial e-light"><div class="editorial-top"><span>GF-001</span><span>02 / 02</span></div><div class="editorial-mark">夜</div><div><h3>AFTER<br>DARK</h3><button data-filter="T-shirt">SHOP TEES ↗</button></div></article>
+</div>
+</section>
 
-    <section class="ticker" aria-label="Brand values">
-      <div>ANIME CULTURE</div><div>STREET ATTITUDE</div><div>LIMITED DROPS</div><div>MADE TO STAND OUT</div>
-    </section>
+<section class="section shop-section" id="shop">
+<div class="section-head shop-head"><div><p class="eyebrow">02 / COLLECTION</p><h2>SHOP ALL.</h2></div>
+<div class="filters"><button class="filter active" data-category="All">ALL</button><button class="filter" data-category="Hoodies">HOODIES</button><button class="filter" data-category="T-shirt">T-SHIRTS</button><button class="filter" data-category="Accessories">ACCESSORIES</button></div></div>
+<div class="shop-meta"><span id="resultCount">8 pieces</span><button id="sortBtn">SORT: FEATURED ↕</button></div>
+<div class="product-grid" id="productGrid"></div>
+</section>
 
-    <section class="section" id="drops">
-      <div class="section-head">
-        <div><p class="eyebrow">LATEST RELEASE</p><h2>THE NEW DROP</h2></div>
-        <a href="#shop" class="text-link">VIEW ALL ↗</a>
-      </div>
-      <div class="featured-grid">
-        <article class="feature-card feature-dark">
-          <span>DROP 001</span><strong>SHADOW<br>DIVISION</strong><button data-filter="Hoodies">SHOP HOODIES ↗</button>
-        </article>
-        <article class="feature-card feature-light">
-          <span>DROP 001</span><strong>AFTER<br>DARK</strong><button data-filter="T-shirt">SHOP TEES ↗</button>
-        </article>
-      </div>
-    </section>
+<section class="statement"><div class="statement-index">03 / PHILOSOPHY</div><div><p>WE DON'T MAKE<br><strong>MERCH.</strong><br>WE MAKE A<br><em>UNIFORM.</em></p></div></section>
 
-    <section class="section" id="shop">
-      <div class="section-head shop-head">
-        <div><p class="eyebrow">THE COLLECTION</p><h2>SHOP</h2></div>
-        <div class="filters" role="group" aria-label="Categorie">
-          <button class="filter active" data-category="All">All</button>
-          <button class="filter" data-category="Hoodies">Hoodies</button>
-          <button class="filter" data-category="T-shirt">T-Shirts</button>
-          <button class="filter" data-category="Accessories">Accessories</button>
-        </div>
-      </div>
-      <div class="product-grid" id="productGrid"></div>
-    </section>
+<section class="story" id="story"><div class="story-copy"><p class="eyebrow">04 / OUR STORY</p><h2>FROM ANIME<br>TO THE <i>STREETS.</i></h2><p>Goodfellas Streetwear prende l'energia visiva degli anime e la trasforma in capi pensati per la vita reale. Silhouette oversize, grafiche forti e drop selezionati: niente cosplay, solo streetwear.</p><div class="story-stats"><div><strong>001</strong><span>FIRST DROP</span></div><div><strong>420GSM</strong><span>HEAVYWEIGHT</span></div><div><strong>24/7</strong><span>STREET MODE</span></div></div></div><div class="story-art"><span>GOOD<br>FELLAS</span><small>STREETWEAR</small></div></section>
 
-    <section class="manifesto" id="about">
-      <p class="eyebrow">GOODFELLAS STREETWEAR</p>
-      <h2>NOT MERCH.<br><span>A UNIFORM.</span></h2>
-      <p>Goodfellas Streetwear nasce dall'incontro tra cultura anime e street culture. Design decisi, drop selezionati, nessuna voglia di passare inosservati.</p>
-    </section>
+<section class="faq" id="faq"><div><p class="eyebrow">05 / FAQ</p><h2>NEED TO<br>KNOW.</h2></div><div class="faq-list">
+<details><summary>Come vestono i capi?</summary><p>La collezione è progettata con fit streetwear, generalmente regular-to-oversize. La taglia e la guida misure saranno indicate su ogni prodotto.</p></details>
+<details><summary>Quali sono i tempi di spedizione?</summary><p>Le tempistiche definitive verranno mostrate al checkout in base alla destinazione e alla disponibilità.</p></details>
+<details><summary>Posso fare un reso?</summary><p>Sì, la politica resi verrà pubblicata prima dell'apertura delle vendite.</p></details>
+</div></section>
 
-    <section class="newsletter">
-      <div><p class="eyebrow">STAY IN THE LOOP</p><h2>GET THE DROP.</h2></div>
-      <form id="newsletterForm"><input type="email" placeholder="La tua email" required><button class="primary-btn">JOIN ↗</button></form>
-    </section>
-  </main>
+<section class="newsletter"><div><p class="eyebrow">06 / FIRST ACCESS</p><h2>GET THE<br>DROP.</h2></div><form id="newsletterForm"><input type="email" placeholder="La tua email" required><button class="primary-btn">JOIN ↗</button></form></section>
+</main>
 
-  <footer>
-    <div class="footer-brand">GOODFELLAS STREETWEAR</div>
-    <div class="footer-links"><a href="#shop">Shop</a><a href="#about">About</a><a href="#">Instagram</a><a href="#">Contact</a></div>
-    <small>© 2026 Goodfellas Streetwear. All rights reserved.</small>
-  </footer>
+<footer><div class="footer-top"><div class="footer-brand">GOODFELLAS<br><span>STREETWEAR</span></div><div class="footer-links"><a href="#shop">Shop</a><a href="#newdrop">New Drop</a><a href="#story">Story</a><a href="#faq">FAQ</a></div><div class="footer-social"><a href="#">Instagram ↗</a><a href="#">Contact ↗</a></div></div><div class="footer-bottom"><span>© 2026 GOODFELLAS STREETWEAR</span><span>MADE FOR THE OUTCASTS.</span></div></footer>
 
-  <div class="overlay" id="overlay"></div>
-  <aside class="drawer" id="cartDrawer" aria-label="Carrello">
-    <div class="drawer-head"><h2>YOUR BAG</h2><button class="close" id="closeCart">×</button></div>
-    <div id="cartItems" class="cart-items"></div>
-    <div class="cart-footer">
-      <div class="total"><span>Subtotal</span><strong id="cartTotal">€0,00</strong></div>
-      <button class="primary-btn checkout" id="checkoutBtn">CHECKOUT ↗</button>
-      <small>Checkout demo: collega Stripe prima di accettare pagamenti reali.</small>
-    </div>
-  </aside>
+<div class="overlay" id="overlay"></div>
+<aside class="drawer" id="cartDrawer"><div class="drawer-head"><div><p class="eyebrow">YOUR ORDER</p><h2>YOUR BAG.</h2></div><button class="close" id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="shipping-progress" id="shippingProgress"></div><div class="cart-footer"><div class="total"><span>Subtotal</span><strong id="cartTotal">€0,00</strong></div><button class="primary-btn checkout" id="checkoutBtn">CONTINUE TO CHECKOUT <span>↗</span></button><small>Checkout demo — Stripe verrà collegato nel prossimo step.</small></div></aside>
 
-  <div class="modal" id="productModal">
-    <button class="modal-close" id="closeModal">×</button>
-    <div id="modalContent"></div>
-  </div>
-
-  <script src="/app.js"></script>
-</body>
-</html>
+<div class="modal" id="productModal"><button class="modal-close" id="closeModal">×</button><div id="modalContent"></div></div>
+<script src="/app.js"></script>
+</body></html>
